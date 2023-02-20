@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Our Form</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">Hello world</h1>
+    <p id="description">Hello , This is first project.</p>
+    <!--Final Project-->
+    <form id="survey-form">
+      <label for="name" id="name-label" >Name:</label>
+      <input type="text" id="name" required placeholder="Name"><br>
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" required placeholder="email"><br>
+      <label for="number" id="number-label" >Number:</label>
+      <input type="number" id="number" min="11" max="14" required placeholder="Phone Number"><br><br>
+      <select id="dropdown">
+        <optgroup label="Select">
+          <option value="value">Option 1</option>
+          <option value="value">Option 2</option>
+        </optgroup><br><br>
+        <textarea name="" id="textarea" cols="30" rows="10" placeholder="write here"></textarea><br><br>
+      </select>
+
+      <div>
+        <label for="label-1"></label>
+        <input type="radio" name="name" id="label-1">
+        <label for="label-2"></label>
+        <input type="radio" name="name" id="label-2">
+      </div>
+
+      <button id="submit">Submit</button>
+    </form>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
